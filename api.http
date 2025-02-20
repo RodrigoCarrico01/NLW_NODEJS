@@ -1,11 +1,36 @@
+###
 POST http://localhost:3333/subscriptions
 Content-Type: application/json  
 
 {
-    "name": "Rodrigo Martins",
-    "email": "mr.rodrigocarrico@gmail.com"
+    "name": "amigo 32",
+    "email": "421@gmail.com",
+    "referrer": "0191597e-0a19-43b0-9947-7e4c8dfc4079"
 }
 ###
-GET http://localhost:3333/invites/rodrigo123
+
+GET http://localhost:3333/invites/0191597e-0a19-43b0-9947-7e4c8dfc4079
+
 ###
-GET http://localhost:3333/subscribers/rodrigo123/ranking/clicks
+
+GET http://localhost:3333/subscribers/0191597e-0a19-43b0-9947-7e4c8dfc4079/ranking/clicks
+
+###
+
+GET http://localhost:3333/subscribers/0191597e-0a19-43b0-9947-7e4c8dfc4079/ranking/count
+
+###
+
+GET http://localhost:3333/subscribers/0191597e-0a19-43b0-9947-7e4c8dfc4079/ranking/position
+
+###
+
+GET http://localhost:3333/ranking
+
+###
+
+
+
+
+// 92eef55e-f86e-4299-834f-3f750259dd40 id do hugo hugokeke108@gmail.com
+// 797e9d20-9570-4664-84f0-d9f538434c55 id do Rodrigo mr.rodrigocarrico@gmail.com
